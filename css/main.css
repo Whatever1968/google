@@ -185,3 +185,35 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+	@media (max-width: 650px) {
+
+
+		.searchBox input {
+			width: 80%;
+		}
+		
+	}
+
+	@media (max-width: 450px) {
+		.bottomLinks {
+			text-align: center;
+		}
+		.Left {
+			float: none;
+			padding: 0;
+		}
+		.right {
+			float: none;
+			padding: 0;
+		}
+	}
+	@media (max-width: 470px) {
+		.profileImg {
+			display: none;
+		}
+	}
+		@media (max-width: 393px) {
+		.shareButton {
+			display: none;
+		}
+	}
